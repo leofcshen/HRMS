@@ -27,7 +27,7 @@ namespace HRMS
             this.tabControl1.DrawItem += this.tabControl1_DrawItem;
             //tabControl改側邊 > Alignment:Left > SizeMode:Fixed > 修改 ItemSize
             this.tabControl1.DrawMode = TabDrawMode.OwnerDrawFixed;
-            //LoadWeather(jsondata);
+            //LoadWeather(jsondata);//
         }
 
         string[] time = new string[3]; //時間區段
